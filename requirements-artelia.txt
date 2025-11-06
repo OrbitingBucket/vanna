@@ -1,0 +1,26 @@
+# Artelia Learning Platform - Vanna AI Requirements
+
+# Core Vanna with PostgreSQL and OpenAI support
+vanna[postgres,openai]>=2.0.0
+
+# Optional: For data visualization
+# Uncomment if you want chart generation
+# plotly>=5.0.0
+
+# Optional: For .env file support
+# Uncomment for easier environment management
+# python-dotenv>=1.0.0
+
+# PostgreSQL adapter (included in vanna[postgres])
+psycopg2-binary>=2.9.0
+
+# OpenAI client (included in vanna[openai], works with OpenRouter)
+openai>=1.0.0
+
+# FastAPI for web server (included in vanna)
+fastapi>=0.100.0
+uvicorn>=0.23.0
+
+# Additional dependencies
+pydantic>=2.0.0
+pandas>=2.0.0
